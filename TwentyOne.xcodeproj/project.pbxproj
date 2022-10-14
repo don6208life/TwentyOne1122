@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C499666A291CA9A800B8C52F /* Casino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4996669291CA9A800B8C52F /* Casino.mp3 */; };
+		C49B8108291B7B1300A49169 /* licensing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C49B8107291B7B1300A49169 /* licensing.mp3 */; };
+		C49B810A291B7F7200A49169 /* tie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C49B8109291B7F7200A49169 /* tie.mp3 */; };
+		C49B810C291C84E300A49169 /* CasinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B810B291C84E300A49169 /* CasinoViewController.swift */; };
+		E852C3EA28F8E64800FDE8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852C3E928F8E64800FDE8B0 /* AppDelegate.swift */; };
+		E852C3EC28F8E64800FDE8B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852C3EB28F8E64800FDE8B0 /* SceneDelegate.swift */; };
+		E852C3F128F8E64800FDE8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E852C3EF28F8E64800FDE8B0 /* Main.storyboard */; };
+		E852C3F328F8E64A00FDE8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E852C3F228F8E64A00FDE8B0 /* Assets.xcassets */; };
+		E852C3F628F8E64A00FDE8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E852C3F428F8E64A00FDE8B0 /* LaunchScreen.storyboard */; };
+		E852C40028F8FA1900FDE8B0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852C3FF28F8FA1900FDE8B0 /* Card.swift */; };
+		E8DB4F2F291B4300009EAC08 /* BlackJack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8DB4F2E291B4300009EAC08 /* BlackJack.mp3 */; };
+		E8DB4F31291B48F6009EAC08 /* playerwin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8DB4F30291B48F6009EAC08 /* playerwin.mp3 */; };
+		E8DB4F33291B4A2D009EAC08 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8DB4F32291B4A2D009EAC08 /* lose.mp3 */; };
+		E8DB4F35291B4B3C009EAC08 /* wrongbuzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8DB4F34291B4B3C009EAC08 /* wrongbuzzer.mp3 */; };
+		E8E2982B290B7DB900FA04F8 /* TwentyOnePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2982A290B7DB900FA04F8 /* TwentyOnePlayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4996669291CA9A800B8C52F /* Casino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Casino.mp3; sourceTree = "<group>"; };
+		C49B8107291B7B1300A49169 /* licensing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = licensing.mp3; sourceTree = "<group>"; };
+		C49B8109291B7F7200A49169 /* tie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tie.mp3; sourceTree = "<group>"; };
+		C49B810B291C84E300A49169 /* CasinoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasinoViewController.swift; sourceTree = "<group>"; };
+		E852C3E628F8E64800FDE8B0 /* TwentyOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E852C3E928F8E64800FDE8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E852C3EB28F8E64800FDE8B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E852C3F028F8E64800FDE8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E852C3F228F8E64A00FDE8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E852C3F528F8E64A00FDE8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E852C3F728F8E64A00FDE8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E852C3FF28F8FA1900FDE8B0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E8DB4F2E291B4300009EAC08 /* BlackJack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BlackJack.mp3; sourceTree = "<group>"; };
+		E8DB4F30291B48F6009EAC08 /* playerwin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = playerwin.mp3; sourceTree = "<group>"; };
+		E8DB4F32291B4A2D009EAC08 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		E8DB4F34291B4B3C009EAC08 /* wrongbuzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongbuzzer.mp3; sourceTree = "<group>"; };
+		E8E2982A290B7DB900FA04F8 /* TwentyOnePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyOnePlayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E852C3E328F8E64800FDE8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E852C3DD28F8E64800FDE8B0 = {
+			isa = PBXGroup;
+			children = (
+				E852C3E828F8E64800FDE8B0 /* TwentyOne */,
+				E852C3E728F8E64800FDE8B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E852C3E728F8E64800FDE8B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E852C3E628F8E64800FDE8B0 /* TwentyOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E852C3E828F8E64800FDE8B0 /* TwentyOne */ = {
+			isa = PBXGroup;
+			children = (
+				C49B8107291B7B1300A49169 /* licensing.mp3 */,
+				E8DB4F2E291B4300009EAC08 /* BlackJack.mp3 */,
+				E8DB4F30291B48F6009EAC08 /* playerwin.mp3 */,
+				E8DB4F32291B4A2D009EAC08 /* lose.mp3 */,
+				C49B8109291B7F7200A49169 /* tie.mp3 */,
+				C4996669291CA9A800B8C52F /* Casino.mp3 */,
+				E8DB4F34291B4B3C009EAC08 /* wrongbuzzer.mp3 */,
+				E852C3E928F8E64800FDE8B0 /* AppDelegate.swift */,
+				E852C3EB28F8E64800FDE8B0 /* SceneDelegate.swift */,
+				E852C3EF28F8E64800FDE8B0 /* Main.storyboard */,
+				C49B810B291C84E300A49169 /* CasinoViewController.swift */,
+				E8E2982A290B7DB900FA04F8 /* TwentyOnePlayViewController.swift */,
+				E852C3FF28F8FA1900FDE8B0 /* Card.swift */,
+				E852C3F228F8E64A00FDE8B0 /* Assets.xcassets */,
+				E852C3F428F8E64A00FDE8B0 /* LaunchScreen.storyboard */,
+				E852C3F728F8E64A00FDE8B0 /* Info.plist */,
+			);
+			path = TwentyOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E852C3E528F8E64800FDE8B0 /* TwentyOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E852C3FA28F8E64A00FDE8B0 /* Build configuration list for PBXNativeTarget "TwentyOne" */;
+			buildPhases = (
+				E852C3E228F8E64800FDE8B0 /* Sources */,
+				E852C3E328F8E64800FDE8B0 /* Frameworks */,
+				E852C3E428F8E64800FDE8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwentyOne;
+			productName = TwentyOne;
+			productReference = E852C3E628F8E64800FDE8B0 /* TwentyOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E852C3DE28F8E64800FDE8B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E852C3E528F8E64800FDE8B0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = E852C3E128F8E64800FDE8B0 /* Build configuration list for PBXProject "TwentyOne" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E852C3DD28F8E64800FDE8B0;
+			productRefGroup = E852C3E728F8E64800FDE8B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E852C3E528F8E64800FDE8B0 /* TwentyOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E852C3E428F8E64800FDE8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49B810A291B7F7200A49169 /* tie.mp3 in Resources */,
+				E852C3F628F8E64A00FDE8B0 /* LaunchScreen.storyboard in Resources */,
+				E8DB4F2F291B4300009EAC08 /* BlackJack.mp3 in Resources */,
+				E852C3F328F8E64A00FDE8B0 /* Assets.xcassets in Resources */,
+				E8DB4F31291B48F6009EAC08 /* playerwin.mp3 in Resources */,
+				E852C3F128F8E64800FDE8B0 /* Main.storyboard in Resources */,
+				E8DB4F33291B4A2D009EAC08 /* lose.mp3 in Resources */,
+				C499666A291CA9A800B8C52F /* Casino.mp3 in Resources */,
+				E8DB4F35291B4B3C009EAC08 /* wrongbuzzer.mp3 in Resources */,
+				C49B8108291B7B1300A49169 /* licensing.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E852C3E228F8E64800FDE8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E852C3EA28F8E64800FDE8B0 /* AppDelegate.swift in Sources */,
+				E852C3EC28F8E64800FDE8B0 /* SceneDelegate.swift in Sources */,
+				C49B810C291C84E300A49169 /* CasinoViewController.swift in Sources */,
+				E8E2982B290B7DB900FA04F8 /* TwentyOnePlayViewController.swift in Sources */,
+				E852C40028F8FA1900FDE8B0 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E852C3EF28F8E64800FDE8B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E852C3F028F8E64800FDE8B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E852C3F428F8E64A00FDE8B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E852C3F528F8E64A00FDE8B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E852C3F828F8E64A00FDE8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E852C3F928F8E64A00FDE8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E852C3FB28F8E64A00FDE8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XM9KKM4R7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwentyOne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.TwentyOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E852C3FC28F8E64A00FDE8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XM9KKM4R7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwentyOne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.TwentyOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E852C3E128F8E64800FDE8B0 /* Build configuration list for PBXProject "TwentyOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E852C3F828F8E64A00FDE8B0 /* Debug */,
+				E852C3F928F8E64A00FDE8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E852C3FA28F8E64A00FDE8B0 /* Build configuration list for PBXNativeTarget "TwentyOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E852C3FB28F8E64A00FDE8B0 /* Debug */,
+				E852C3FC28F8E64A00FDE8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E852C3DE28F8E64800FDE8B0 /* Project object */;
+}
